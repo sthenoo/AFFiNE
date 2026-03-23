@@ -5,6 +5,8 @@ import { EmbedEdgelessGithubBlockComponent } from './embed-github-block/embed-ed
 import { EmbedHtmlBlockComponent } from './embed-html-block';
 import { EmbedHtmlFullscreenToolbar } from './embed-html-block/components/fullscreen-toolbar';
 import { EmbedEdgelessHtmlBlockComponent } from './embed-html-block/embed-edgeless-html-block';
+import { EmbedHtmlJsBlockComponent } from './embed-htmljs-block/embed-htmljs-block';
+import { EmbedEdgelessHtmlJsBlockComponent } from './embed-htmljs-block/embed-edgeless-htmljs-block';
 import { EmbedIframeErrorCard } from './embed-iframe-block/components/embed-iframe-error-card';
 import { EmbedIframeIdleCard } from './embed-iframe-block/components/embed-iframe-idle-card';
 import { EmbedIframeLinkEditPopup } from './embed-iframe-block/components/embed-iframe-link-edit-popup';
@@ -33,6 +35,12 @@ export function effects() {
   customElements.define(
     'embed-html-fullscreen-toolbar',
     EmbedHtmlFullscreenToolbar
+  );
+
+  customElements.define('affine-embed-htmljs-block', EmbedHtmlJsBlockComponent);
+  customElements.define(
+    'affine-embed-edgeless-htmljs-block',
+    EmbedEdgelessHtmlJsBlockComponent
   );
   customElements.define(
     'affine-embed-edgeless-github-block',
@@ -82,6 +90,8 @@ declare global {
     'affine-embed-html-block': EmbedHtmlBlockComponent;
     'affine-embed-edgeless-html-block': EmbedEdgelessHtmlBlockComponent;
     'embed-html-fullscreen-toolbar': EmbedHtmlFullscreenToolbar;
+    'affine-embed-htmljs-block': EmbedHtmlJsBlockComponent;
+    'affine-embed-edgeless-htmljs-block': EmbedEdgelessHtmlJsBlockComponent;
     'affine-embed-edgeless-loom-block': EmbedEdgelessLoomBlockComponent;
     'affine-embed-loom-block': EmbedLoomBlockComponent;
     'affine-embed-youtube-block': EmbedYoutubeBlockComponent;

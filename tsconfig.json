@@ -100,6 +100,7 @@
     { "path": "./blocksuite/affine/model" },
     { "path": "./blocksuite/affine/rich-text" },
     { "path": "./blocksuite/affine/shared" },
+    { "path": "./blocksuite/affine/widgets/custom-toolbar" },
     { "path": "./blocksuite/affine/widgets/drag-handle" },
     { "path": "./blocksuite/affine/widgets/edgeless-auto-connect" },
     { "path": "./blocksuite/affine/widgets/edgeless-dragging-area" },

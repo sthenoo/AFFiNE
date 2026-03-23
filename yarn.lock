@@ -3060,6 +3060,20 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@blocksuite/affine-widget-custom-toolbar@workspace:*, @blocksuite/affine-widget-custom-toolbar@workspace:blocksuite/affine/widgets/custom-toolbar":
+  version: 0.0.0-use.local
+  resolution: "@blocksuite/affine-widget-custom-toolbar@workspace:blocksuite/affine/widgets/custom-toolbar"
+  dependencies:
+    "@blocksuite/affine-ext-loader": "workspace:*"
+    "@blocksuite/affine-model": "workspace:*"
+    "@blocksuite/affine-shared": "workspace:*"
+    "@blocksuite/global": "workspace:*"
+    "@blocksuite/std": "workspace:*"
+    "@preact/signals-core": "npm:^1.8.0"
+    lit: "npm:^3.2.0"
+  languageName: unknown
+  linkType: soft
+
 "@blocksuite/affine-widget-drag-handle@workspace:*, @blocksuite/affine-widget-drag-handle@workspace:blocksuite/affine/widgets/drag-handle":
   version: 0.0.0-use.local
   resolution: "@blocksuite/affine-widget-drag-handle@workspace:blocksuite/affine/widgets/drag-handle"
@@ -3496,6 +3510,7 @@ __metadata:
     "@blocksuite/affine-model": "workspace:*"
     "@blocksuite/affine-rich-text": "workspace:*"
     "@blocksuite/affine-shared": "workspace:*"
+    "@blocksuite/affine-widget-custom-toolbar": "workspace:*"
     "@blocksuite/affine-widget-drag-handle": "workspace:*"
     "@blocksuite/affine-widget-edgeless-auto-connect": "workspace:*"
     "@blocksuite/affine-widget-edgeless-dragging-area": "workspace:*"

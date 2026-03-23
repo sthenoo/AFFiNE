@@ -71,6 +71,7 @@
     { "path": "../widgets/slash-menu" },
     { "path": "../widgets/toolbar" },
     { "path": "../widgets/viewport-overlay" },
+    { "path": "../widgets/custom-toolbar" },
     { "path": "../data-view" },
     { "path": "../../framework/global" },
     { "path": "../../framework/std" },

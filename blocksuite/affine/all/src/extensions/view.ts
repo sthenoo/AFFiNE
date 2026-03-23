@@ -56,6 +56,7 @@ import { ScrollAnchoringViewExtension } from '@blocksuite/affine-widget-scroll-a
 import { SlashMenuViewExtension } from '@blocksuite/affine-widget-slash-menu/view';
 import { ToolbarViewExtension } from '@blocksuite/affine-widget-toolbar/view';
 import { ViewportOverlayViewExtension } from '@blocksuite/affine-widget-viewport-overlay/view';
+import { CustomToolbarViewExtension } from '@blocksuite/affine-widget-custom-toolbar/view';
 
 export function getInternalViewExtensions() {
   return [
@@ -122,6 +123,7 @@ export function getInternalViewExtensions() {
     EdgelessDraggingAreaViewExtension,
     NoteSlicerViewExtension,
     EdgelessToolbarViewExtension,
+    CustomToolbarViewExtension,
 
     // Fragment
     DocTitleViewExtension,

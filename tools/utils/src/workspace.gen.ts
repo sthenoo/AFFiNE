@@ -860,6 +860,17 @@ export const PackageList = [
     ],
   },
   {
+    location: 'blocksuite/affine/widgets/custom-toolbar',
+    name: '@blocksuite/affine-widget-custom-toolbar',
+    workspaceDependencies: [
+      'blocksuite/affine/ext-loader',
+      'blocksuite/affine/model',
+      'blocksuite/affine/shared',
+      'blocksuite/framework/global',
+      'blocksuite/framework/std',
+    ],
+  },
+  {
     location: 'blocksuite/affine/widgets/drag-handle',
     name: '@blocksuite/affine-widget-drag-handle',
     workspaceDependencies: [
@@ -1561,6 +1572,7 @@ export type PackageName =
   | '@blocksuite/affine-model'
   | '@blocksuite/affine-rich-text'
   | '@blocksuite/affine-shared'
+  | '@blocksuite/affine-widget-custom-toolbar'
   | '@blocksuite/affine-widget-drag-handle'
   | '@blocksuite/affine-widget-edgeless-auto-connect'
   | '@blocksuite/affine-widget-edgeless-dragging-area'

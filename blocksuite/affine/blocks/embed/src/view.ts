@@ -19,6 +19,8 @@ import {
   EmbedHtmlViewExtensions,
 } from './embed-html-block';
 import { EmbedEdgelessHtmlBlockInteraction } from './embed-html-block/embed-edgeless-html-block';
+import { EmbedHtmlJsViewExtensions } from './embed-htmljs-block';
+import { EmbedEdgelessHtmlJsBlockInteraction } from './embed-htmljs-block/embed-edgeless-htmljs-block';
 import {
   EdgelessClipboardEmbedIframeConfig,
   EmbedIframeViewExtensions,
@@ -50,6 +52,7 @@ export class EmbedViewExtension extends ViewExtensionProvider {
     context.register(EmbedLoomViewExtensions);
     context.register(EmbedYoutubeViewExtensions);
     context.register(EmbedHtmlViewExtensions);
+    context.register(EmbedHtmlJsViewExtensions);
     context.register(EmbedIframeViewExtensions);
     const isEdgeless = this.isEdgeless(context.scope);
     if (isEdgeless) {
@@ -63,6 +66,7 @@ export class EmbedViewExtension extends ViewExtensionProvider {
         EmbedFigmaBlockInteraction,
         EmbedGithubBlockInteraction,
         EmbedEdgelessHtmlBlockInteraction,
+        EmbedEdgelessHtmlJsBlockInteraction,
         EmbedLoomBlockInteraction,
         EmbedYoutubeBlockInteraction,
         EmbedIframeInteraction,
