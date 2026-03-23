@@ -23,7 +23,8 @@ export type Language =
   | 'ko'
   | 'pt-BR'
   | 'fa'
-  | 'nb-NO';
+  | 'nb-NO'
+  | 'cs';
 
 export type LanguageResource = typeof en;
 export const SUPPORTED_LANGUAGES: Record<
@@ -178,5 +179,11 @@ export const SUPPORTED_LANGUAGES: Record<
     originalName: 'Norsk (Bokmål)',
     flagEmoji: '🇳🇴',
     resource: () => import('./nb-NO.json'),
+  },
+  cs: {
+    name: 'Czech',
+    originalName: 'čeština',
+    flagEmoji: '🇨🇿',
+    resource: () => import('./cs.json'),
   },
 };
